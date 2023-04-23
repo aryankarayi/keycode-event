@@ -2,13 +2,38 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .header {
     display: flex;
     background-color: #1F2833;
-    padding: 30px;
+    padding: 25px;
     justify-content: space-between;
     color: white;
     font-family: Sigmar;
     font-size: 20px;
+}
+
+.footer {
+    background-color: #1F2833;
+    margin-top: auto;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-family: sans-serif;
+}
+
+img {
+    height: 25px;
 }
